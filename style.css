@@ -15,7 +15,6 @@ body {
 
 main {
   padding: 50px;
-  height: 100vh;
   display: flex;
   background-image: url('https://img.freepik.com/free-vector/complex-background-with-pale-details_23-2149118164.jpg?t=st=1736564469~exp=1736568069~hmac=0b3325d8e8e23f2b1e5182242ca836e0ebe8d1ef4ba97ab9faf2470dc1132479&w=900');
   background-size: cover;
