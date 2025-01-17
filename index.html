@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survei Kodein Club</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Kuisoner Minat Kodein Club</h1>
+      <p>
+        Bantu kami memahami minat anda untuk memberikan pengalaman pembelajaran
+        terbaik.
+      </p>
+    </header>
+    <main>
+      <form>
+        <!-- Input Nama -->
+        <div class="form-group">
+          <label for="name">Nama</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Masukkan nama anda"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Masukkan email anda"
+            required
+          />
+        </div>
+
+        <!-- Pilihan Minat -->
+        <div class="form-group">
+          <p>Silahkan Pilih Minat Anda</p>
+          <select name="interest" id="interest" required>
+            <option disabled selected value>Choose</option>
+            <option value="Multi Media">Multi Media</option>
+            <option value="Programming">Programming</option>
+            <option value="IoT & Robotik">IoT & Robotik</option>
+          </select>
+        </div>
+
+        <!-- Cara Mengetahui Kodein Club -->
+        <div class="form-group">
+          <p>Bagaimana Anda mengetahui tentang Kodein Club</p>
+          <div class="radio-group">
+            <label>
+              <input
+                type="radio"
+                name="source"
+                value="Teman"
+                required 
+              /> Teman
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="source"
+                value="Guru"
+                required
+              /> Guru
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="source"
+                value="Media Sosial"
+                required
+              /> Media Sosial
+            </label>
+            <p>Apakah Anda akan merekomendasikan Kodein Club kepada orang lain?</p>
+  <div class="checkbox-group">
+    <label>
+      <input
+        type="checkbox"
+        name="recommendation"
+        value="Teman"
+      /> Teman
+    </label>
+    <label>
+      <input
+        type="checkbox"
+        name="recommendation"
+        value="Guru"
+      /> Guru
+    </label>
+    <label>
+      <input
+        type="checkbox"
+        name="recommendation"
+        value="Media Sosial"
+      /> Media Sosial
+    </label>
+          </div>
+          <p>Ceritakan mengapa anda tertarik untuk bergabung:</p>
+          <input
+          class="height"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Saya tertarik karena..."
+          />
+        </div>
+        <button>
+          Submit
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

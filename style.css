@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 183, 255);
+}
+
+.header {
+  background-color: lightblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  text-align: center;
+}
+
+main {
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  background-image: url('https://img.freepik.com/free-vector/complex-background-with-pale-details_23-2149118164.jpg?t=st=1736564469~exp=1736568069~hmac=0b3325d8e8e23f2b1e5182242ca836e0ebe8d1ef4ba97ab9faf2470dc1132479&w=900');
+  background-size: cover;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 500px;
+  max-width: 90%;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group p {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* Spasi antar radio button */
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0px; /* Spasi antara radio button dan teks */
+  font-size: 14px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Spasi antara checkbox dan teks */
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px; /* Menyesuaikan jarak agar seragam dengan radio */
+}
+
+.height {
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(110, 192, 219);
+
+}
